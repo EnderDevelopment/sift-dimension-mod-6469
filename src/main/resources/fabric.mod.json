@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "siftdimensionmod",
+    "version": "1.0.0",
+    "name": "Sift Dimension Mod",
+    "description": "A mod that adds a new dimension called Sift with custom mobs, structures, and a unique portal system.",
+    "authors": ["shadowsonic24712"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.shadowsonic24712.siftdimensionmod.SiftDimensionMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.20.4",
+        "fabric-api": "*"
+    }
+}
